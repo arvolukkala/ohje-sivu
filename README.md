@@ -1,4 +1,4 @@
-
+konsoliin:
 - npm install
 - npm install vite-plugin-singlefile --save-dev
 - npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
