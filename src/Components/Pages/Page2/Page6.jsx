@@ -8,11 +8,6 @@ const Page = () => {
       </h2>
       <p className="texts">
 
-      <iframe className='video'
-        title="YouTube Video"
-        src="https://www.youtube.com/embed/JEDVgZ_lWm8"
-        allowFullScreen>
-      </iframe>
       </p>
     </div>
     )
