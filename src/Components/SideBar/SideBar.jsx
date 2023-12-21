@@ -473,7 +473,7 @@ const Sidebar = () => {
                             {isSubMenuOpen3 && (
                             <div className="dropdown-menu">
                                 <button
-                                    className={`text ${activeButton === 'Page45' ? 'active' : ''}`}
+                                    className={`subtext ${activeButton === 'Page45' ? 'active' : ''}`}
                                     onClick={() => handleButtonClick('Page45', 'Page45')}>
                                         Laitteen kielen vaihtaminen
                                 </button>
@@ -482,7 +482,7 @@ const Sidebar = () => {
                         </div>
                         <div className='dropdown-menu'>
                             <button
-                                className={`subtext ${activeButton === 'Page46' ? 'active' : ''}`}
+                                className={`text ${activeButton === 'Page46' ? 'active' : ''}`}
                                 onClick={() => handleButtonClick('Page46', 'Page46')}>
                                     Laiteparin muodostaminen
                             </button>
