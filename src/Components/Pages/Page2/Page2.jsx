@@ -9,11 +9,6 @@ const Page = () => {
       <p className="texts">
       </p>
 
-      <iframe className='video'
-        title="YouTube Video"
-        src="https://www.youtube.com/embed/zxs7IEzJPdE"
-        allowFullScreen>
-      </iframe>
     </div>
     )
   };
